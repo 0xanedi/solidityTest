@@ -6,6 +6,42 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_favoriteNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "addPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_favoriteNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "addPerson2",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "favoriteNumber",
 				"outputs": [
@@ -13,6 +49,49 @@
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "favoriteNumberList",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "people",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "favoriteNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -91,11 +170,11 @@
 	},
 	"sources": {
 		"contracts/solTest.sol": {
-			"keccak256": "0xc818e7775487c983900a2877b92e7a5f0042ad563ef0d01d4c85295466d591f9",
+			"keccak256": "0xd33f0e06f2f2cd6bd07f829cd96901189e67fd8d3753b3cc842162f952d7e251",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8451c70d70ba8ed45fb832066fa4e68e81978f947fb6b40bf2a5f28fc3cc900f",
-				"dweb:/ipfs/Qmc55TBWBfdB4tvYKeKxtprjsbCLJ3s9q3ZjjShqWhG9DH"
+				"bzz-raw://ec6f6ef3a3a38f98a667dba018e582067544ce4c7fa4d068fa06f70f42536050",
+				"dweb:/ipfs/QmdhG1PPsAuMQU2DkFY5MdFtD3Co66N3xFyNqjM7J6y2PG"
 			]
 		}
 	},
