@@ -71,3 +71,6 @@ contract SimpleStorage {
 
 //EVM: standard of how to deploy SCs to blockchains
 //Polygon, Avalanche, Fantom
+
+//Composability: ability of smart contracts to interact 
+// with each other
