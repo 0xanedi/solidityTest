@@ -1,5 +1,3 @@
-# solidityTest
-
 # Storage Factory - Solidity Smart Contract
 
 ## Overview
